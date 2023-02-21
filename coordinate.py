@@ -50,12 +50,13 @@ def n_txt(img, n):
     w = ((c * w1)/w2)
     h = ((d * h1)/h2)
 
+
+
     File = open(f"2step/{n}/{img_name}.txt", "w")
-    print(f"{txt_data[0]} {cx} {cy} {w} {h}", file = File)
+    print(f"{txt_data[0]} {cx:.5f} {cy:.5f} {w:.5f} {h:.5f}", file = File)
     File.close
 
 
-#다시 상대값으로 바꾸자아아아
 
 '''
     if cx < 0:
