@@ -45,10 +45,10 @@ def n_txt(img, n):
     c= float(txt_data[3])   
     d= float(txt_data[4])   
 
-    cx = (a * w1)/w2 + (w2-w1)/2
-    cy = (b * h1)/h2 + (h2-h1)/2
-    w = (c * w1)/w2
-    h = (d * h1)/h2
+    cx = ((a * w1) + (w2-w1)/2)/w2
+    cy = ((b * h1) + (h2-h1)/2)/h2
+    w = ((c * w1)/w2)
+    h = ((d * h1)/h2)
 
     File = open(f"2step/{n}/{img_name}.txt", "w")
     print(f"{txt_data[0]} {cx} {cy} {w} {h}", file = File)
