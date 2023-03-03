@@ -7,7 +7,7 @@ def txt_read(txt):
     return lines
 
 
-# 미완성
+'''
 def amend(txt):
     
     dir = "new_file/"
@@ -30,8 +30,9 @@ def amend(txt):
         print(f"{ncls} {txt[1]} {txt[2]} {txt[3]} {txt[4]}", file = File)
         
         File.close
+'''
 
-
+# code1.
 
 def amend(txt):
     
@@ -57,7 +58,7 @@ def amend(txt):
 
 
 
-# 파이토닉하게 재작성한 함수
+# code2. 파이토닉하게 재작성한 함수
 def amend2(txt):
     txt_name = txt.split(".")[0]
 
