@@ -72,8 +72,10 @@ def mk_bg(img, n): #배경 세밀화 과정(단색보다 더 디테일하도록)
 
     img_B = img_B.resize((int(padding_len), int(padding_len)))
 
-
-    img_B.save(f'1step/BG/{n}/{img}_{n}.jpg')
+    img_name =  img.split(".")[0]
+    img_B = img_B.convert("RGB")
+    
+    img_B.save(f'1step/BG/{n}/{img_name}_{n}.jpg')
     #img_F.save(f'1step/crop/{img}')
 
     
