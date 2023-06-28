@@ -21,7 +21,7 @@ def add(img, n):
 
     BG_img.paste(img, (int((bh-h)/2), int((bw-w)/2)))
 
-    BG_img.save(f'2step/{n}/{img_name}.jpg')
+    BG_img.save(f'2step/{n}/{img_name})
 
 
 
