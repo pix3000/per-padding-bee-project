@@ -1,6 +1,6 @@
 # per-padding-bee-project
 
->**per_padding.py:** 아래 모든 과정을 하나로 통합  <br/>
+**per_padding.py:** 아래 모든 과정을 하나로 통합  <br/>
 
 
 **순서:** CB.py -> padding.py -> coordinate.py
